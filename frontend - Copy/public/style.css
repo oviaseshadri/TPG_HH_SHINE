@@ -29,3 +29,84 @@
     background: #FFFFFF;
 
 }
+
+body{
+    background: linear-gradient(110.33deg, #465571 0%, #282828 4%, #141414 60.58%, #465571 113.12%);
+}
+
+.form-control{
+    border-color: #adc7f8;
+}
+
+.form-label{
+    font-weight:1000;
+    font-size: 15px;
+}
+
+.btn{
+    background:#adc7f8;
+    border-color: #adc7f8;
+    color: #000;
+    align-self: center;
+    font-weight:1000;
+    margin-left: 42%;
+    font-family: 'Jost';font-size: 22px;
+}
+
+h5{
+    font-weight:1000;
+}
+
+.navbar{
+    background-color: #141414;
+}
+.nav-link{
+    margin-right: 40px;
+    font-family: 'Jost';font-size: 20px;
+    color: #cdddfc;
+}
+#search{
+    margin-top: 8px;
+    background-color: #141414bd;
+    border-radius: 40px;
+}
+.navbar-brand{
+    color: #cdddfc;
+    font-family: Bungee Inline;
+    font-size: 30px;
+}
+.col-sm-6{
+    margin-left: 25px;
+}
+.col-sm-5{
+    margin-top: 25px;
+}
+
+#file{
+    margin-left: 40px;
+    border: none;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #cdddfc;
+}
+
+.form-custom{
+
+    margin-left: 32%;
+    margin-bottom: 100px;
+    padding: 2%;
+    align-items: center;
+    font-family: 'Jost';font-size: 22px;
+    background-color: #FFFFFF;
+    width: 40%;
+    border-radius: 7px;
+}
+
+.cards{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    background: #FFFFFF;
+
+}
