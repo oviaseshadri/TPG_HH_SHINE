@@ -21,6 +21,17 @@ const Dashboard = () => {
             </div>
             
             <div className="cards">
+                <Grid container spacing={2}>
+                        <Grid item md={4}>
+                            <Card title="sky stalker" img="../public/static/8a1a98912001dbd6f9fb8b9c77a35df4.jpg"/>
+                        </Grid>
+                        <Grid item md={4}>
+                            <Card title="lee cooper"/>
+                        </Grid>
+                        <Grid item md={4}>
+                            <Card title="levi ackerman"/>
+                        </Grid>
+                </Grid>
                 <Button color="primary" variant="contained" onClick={() => {navigate("/RegisterForm")}}>Connect wallet</Button>
             </div>
             <div className="dash-text">
