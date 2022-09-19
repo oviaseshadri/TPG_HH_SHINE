@@ -12,9 +12,9 @@ const Dashboard = () => {
     const [isRegistered, setisRegistered] = useState(false);
 
     return(
-        <div className="dash-text">
+        <div>
             <Navbar></Navbar>
-            <div>
+            <div className="dash-text">
                 <h1 >DISCOVER THE<br></br> NEXT-GEN<br></br> SOCIAL MEDIA</h1>
                 <h3>Earn rewards whether you are a creator or follower</h3>
                 <Button variant="contained" onClick={() => {navigate("/RegisterForm")}}>Connect wallet</Button>
