@@ -13,8 +13,7 @@ export default function MediaCard(props) {
       <CardMedia
         component="img"
         height="140"
-        image='../public/static/8a1a98912001dbd6f9fb8b9c77a35df4.jpg'
-      />
+        image="https://write.geeksforgeeks.org/static/media/Group%20210.88284759.svg"
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {title}
