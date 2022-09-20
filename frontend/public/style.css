@@ -113,9 +113,30 @@ h5{
 .text-white{
     color: #cdddfc;
 }
+.btns{
+    background-color: #cdddfc;
+    color: #000;
+    border: none;
+    margin-left: 46%;
+    height: 50px;
+    width: 110px;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Jost';
+}
 .footer{
     background: linear-gradient(110.33deg, #465571 0%, #282828 4%, #141414 60.58%, #465571 113.12%);
 }
 .col-lg-3{
     margin-top: 5%;
+}
+.profile-txt{
+    color: #cdddfc;
+    text-align: center;
+}
+#follow{
+    margin-left: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
